@@ -15,3 +15,7 @@ My research centers on developing **efficient, scalable, and theoretically groun
 **University of Dhaka** — M.S. & B.S. in EEE (Rank 1st)
 
 ---
+---
+title: "About"
+permalink: /about/
+---
