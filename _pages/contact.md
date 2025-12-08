@@ -1,3 +1,8 @@
+---
+title: "Contact"
+permalink: /contact/
+---
+
 # Contact
 
 Email: chowdm2@rpi.edu  
