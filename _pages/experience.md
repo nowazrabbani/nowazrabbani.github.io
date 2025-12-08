@@ -1,3 +1,8 @@
+---
+title: "Experience"
+permalink: /experience/
+---
+
 # Experience
 
 ## Rensselaer Polytechnic Institute
