@@ -1,3 +1,8 @@
+---
+title: "Publications"
+permalink: /publications/
+---
+
 # Publications
 
 Below is a list of my publications.
