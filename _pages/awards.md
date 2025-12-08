@@ -1,3 +1,8 @@
+---
+title: "Awards"
+permalink: /awards/
+---
+
 # Awards & Honors
 
 - IBM PhD Fellowship (2024)
