@@ -6,16 +6,6 @@
 [Awards](/awards/) |
 [Contact](/contact/)
 
-# Mohammed Nowaz Rabbani Chowdhury
-
-**Ph.D. Candidate, Electrical Engineering**  
-Rensselaer Polytechnic Institute (RPI), Troy, NY  
-Email: chowdm2@rpi.edu  
-[Google Scholar](https://scholar.google.com/citations?user=-JaZmaYAAAAJ)  
-[LinkedIn](https://www.linkedin.com/in/mohammed-nowaz-rabbani-chowdhury-b24446251/)
-
----
-
 ## Welcome
 
 I am a Ph.D. candidate at RPI advised by **Prof. Meng Wang**.  
