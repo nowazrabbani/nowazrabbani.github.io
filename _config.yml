@@ -1,10 +1,5 @@
 theme: jekyll-theme-minimal
 
-title: ""          # REMOVE sidebar title
-description: ""    # REMOVE sidebar description
-logo: ""           # remove GitHub link block
-show_downloads: false
-
 collections:
   publications:
     output: true
