@@ -1,4 +1,10 @@
+---
+layout: default
+title: ""
+---
+
 <style>
+/* hide any leftover sidebar stuff */
 .sidebar {
   display: none !important;
 }
