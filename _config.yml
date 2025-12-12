@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 
-title: " "     # ← not empty, not missing, just a single space
+title: " "        # blank title to hide sidebar name
+show_downloads: false   # hides GitHub profile link
 
 collections:
   publications:
