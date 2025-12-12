@@ -1,7 +1,8 @@
 ---
-title: "Efficient Training of Sparse Mixture-of-Experts (MoE)"
+layout: default
+title: "Efficient Inference of Sparse Mixture-of-Experts via Expert Pruning"
 ---
 
-- First theoretical characterization of MoE training dynamics  
-- Identified key efficiency-driving properties  
-- Demonstrated data-efficient training (ICML 2023 Oral)  
+## Overview
+
+This project introduces the first provably effective…
