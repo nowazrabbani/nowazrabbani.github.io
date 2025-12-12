@@ -1,27 +1,12 @@
 theme: jekyll-theme-minimal
-title: Mohammed Nowaz Rabbani Chowdhury
-description: Ph.D. Candidate in Electrical Engineering at RPI | Researching Efficient Large AI Models
 
-# Enable collections for publications and projects
+title: ""          # REMOVE sidebar title
+description: ""    # REMOVE sidebar description
+logo: ""           # remove GitHub link block
+show_downloads: false
+
 collections:
   publications:
     output: true
   projects:
     output: true
-
-# Navigation bar
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/_pages/about"
-  - title: "Research"
-    url: "/_pages/research"
-  - title: "Publications"
-    url: "/_pages/publications"
-  - title: "Experience"
-    url: "/_pages/experience"
-  - title: "Awards"
-    url: "/_pages/awards"
-  - title: "Contact"
-    url: "/_pages/contact"
