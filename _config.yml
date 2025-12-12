@@ -1,10 +1,60 @@
-theme: jekyll-theme-minimal
+title: "Mohammed Nowaz Rabbani Chowdhury"
+description: "Ph.D. Candidate in Electrical Engineering at RPI"
 
-title: " "        # blank title to hide sidebar name
-show_downloads: false   # hides GitHub profile link
+theme: "just-the-docs"
 
+# Base settings
+just_the_docs:
+  logo: "/assets/profile.jpg"     # optional, remove if no logo
+  favicon: "/assets/favicon.ico"  # optional, remove if none
+
+# Enable search
+search_enabled: true
+
+# Navigation structure
+# These correspond to the pages you already created
+nav_order: 1
+
+# Collections for publications and projects
 collections:
   publications:
     output: true
+    permalink: /publications/:name/
   projects:
     output: true
+    permalink: /projects/:name/
+
+# Collections appear under their own headings
+just_the_docs:
+  collections:
+    publications:
+      name: "Publications"
+      nav_order: 4
+    projects:
+      name: "Research Projects"
+      nav_order: 3
+
+# Define the navigation order for top-level pages
+# These correspond to files in your repo root or in /_pages
+nav:
+  - title: "Home"
+    url: "/"
+    nav_order: 1
+  - title: "About"
+    url: "/about/"
+    nav_order: 2
+  - title: "Research"
+    url: "/research/"
+    nav_order: 3
+  - title: "Publications"
+    url: "/publications/"
+    nav_order: 4
+  - title: "Experience"
+    url: "/experience/"
+    nav_order: 5
+  - title: "Awards"
+    url: "/awards/"
+    nav_order: 6
+  - title: "Contact"
+    url: "/contact/"
+    nav_order: 7
