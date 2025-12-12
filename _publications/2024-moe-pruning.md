@@ -1,8 +1,12 @@
 ---
 layout: default
-title: "Efficient Inference of Sparse Mixture-of-Experts via Expert Pruning"
+title: "Patch-level Routing in Mixture-of-Experts is Provably Sample-Efficient for CNNs"
+year: 2023
+venue: "ICML 2023 (Oral)"
 ---
 
-## Overview
+## Abstract
 
-This project introduces the first provably effective…
+This work provides the first theoretical analysis…
+
+[Full details…]
