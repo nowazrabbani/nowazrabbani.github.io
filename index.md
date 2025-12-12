@@ -2,7 +2,11 @@
 .sidebar {
   display: none !important;
 }
+.wrapper {
+  margin-left: auto !important;
+}
 </style>
+
 
 [Home](/) |
 [About](/about/) |
