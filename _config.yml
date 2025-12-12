@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 
+title: " "     # ← not empty, not missing, just a single space
+
 collections:
   publications:
     output: true
