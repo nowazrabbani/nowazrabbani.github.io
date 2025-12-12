@@ -1,6 +1,6 @@
 <style>
-.wrapper {
-  margin-left: auto !important;
+.sidebar {
+  display: none !important;
 }
 </style>
 
