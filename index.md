@@ -1,3 +1,9 @@
+<style>
+.wrapper {
+  margin-left: auto !important;
+}
+</style>
+
 [Home](/) |
 [About](/about/) |
 [Research](/research/) |
