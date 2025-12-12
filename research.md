@@ -1,11 +1,13 @@
 ---
+layout: default
 title: "Research"
+nav_order: 3
 permalink: /research/
 ---
 
 # Research
 
-Here are selected research projects. Each project page includes problem motivation, approach, theoretical results, and experimental outcomes.
+Below are selected research projects:
 
 {% for project in site.projects %}
 - [{{ project.title }}]({{ project.url }})
