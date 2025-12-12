@@ -6,9 +6,19 @@
 [Awards](/awards/) |
 [Contact](/contact/)
 
-<p align="center">
-  <img src="/assets/profile.jpg" width="180" style="border-radius: 50%;">
-</p>
+<table>
+  <tr>
+    <td style="width:180px;">
+      <img src="/assets/profile.jpg" width="160" style="border-radius: 50%;">
+    </td>
+    <td>
+      <h1>Mohammed Nowaz Rabbani Chowdhury</h1>
+      <p>Ph.D. Candidate, Electrical Engineering<br>
+      Rensselaer Polytechnic Institute (RPI)</p>
+    </td>
+  </tr>
+</table>
+
 
 
 ## Welcome
