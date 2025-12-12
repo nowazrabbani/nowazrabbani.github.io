@@ -1,41 +1,15 @@
 ---
 layout: default
-title: ""
+title: "Home"
+nav_order: 1
+permalink: /
 ---
 
-<style>
-/* hide any leftover sidebar stuff */
-.sidebar {
-  display: none !important;
-}
-.wrapper {
-  margin-left: auto !important;
-}
-</style>
+# Mohammed Nowaz Rabbani Chowdhury
 
+_Ph.D. Candidate, Electrical Engineering — Rensselaer Polytechnic Institute (RPI)_
 
-[Home](/) |
-[About](/about/) |
-[Research](/research/) |
-[Publications](/publications/) |
-[Experience](/experience/) |
-[Awards](/awards/) |
-[Contact](/contact/)
-
-<table>
-  <tr>
-    <td style="width:180px;">
-      <img src="/assets/profile.jpg" width="160" style="border-radius: 50%;">
-    </td>
-    <td>
-      <h1>Mohammed Nowaz Rabbani Chowdhury</h1>
-      <p>Ph.D. Candidate, Electrical Engineering<br>
-      Rensselaer Polytechnic Institute (RPI)</p>
-    </td>
-  </tr>
-</table>
-
-
+<img src="/assets/profile.jpg" width="180" style="border-radius:50%; margin-top:20px;">
 
 ## Welcome
 
@@ -50,7 +24,5 @@ I develop training and inference algorithms with **theoretical guarantees**, and
 - **2025** — Received the *Belsky Award of Computational Science*, RPI  
 - **2024–2025** — Awarded the *IBM PhD Fellowship*  
 - **2024** — Founder’s Award of Excellence (Top 1% of RPI students)
-
----
 
 _Last updated: {{ site.time | date: "%B %Y" }}_
