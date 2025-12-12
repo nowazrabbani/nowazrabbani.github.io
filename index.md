@@ -6,6 +6,11 @@
 [Awards](/awards/) |
 [Contact](/contact/)
 
+<p align="center">
+  <img src="/assets/profile.jpg" width="180" style="border-radius: 50%;">
+</p>
+
+
 ## Welcome
 
 I am a Ph.D. candidate at RPI advised by **Prof. Meng Wang**.  
