@@ -1,16 +1,16 @@
 title: "Mohammed Nowaz Rabbani Chowdhury"
 description: "Ph.D. Candidate in Electrical Engineering at RPI"
 
-theme: "just-the-docs"
+# IMPORTANT: use remote_theme, NOT theme
+remote_theme: just-the-docs/just-the-docs
 
-# Enable search bar
+# Enable search
 search_enabled: true
 
-# Sidebar logo (optional)
-just_the_docs:
-  logo: "/assets/profile.jpg"   # remove if you don't want a photo in sidebar
+# Optional sidebar logo
+logo: "/assets/profile.jpg"
 
-# Collections for your publications & research projects
+# Collections
 collections:
   publications:
     output: true
@@ -19,12 +19,12 @@ collections:
     output: true
     permalink: /projects/:name/
 
-# Make collections appear in sidebar
+# Navigation for collections
 just_the_docs:
   collections:
-    publications:
-      name: "Publications"
-      nav_order: 4
     projects:
       name: "Research Projects"
       nav_order: 3
+    publications:
+      name: "Publications"
+      nav_order: 4
