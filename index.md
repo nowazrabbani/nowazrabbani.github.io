@@ -13,15 +13,9 @@ _Ph.D. Candidate, Electrical Engineering — Rensselaer Polytechnic Institute (R
 
 ## Welcome
 
-I am a Ph.D. candidate at the  
-[Department of Electrical, Computer, and Systems Engineering](https://ecse.rpi.edu/about)  
-of [Rensselaer Polytechnic Institute](https://www.rpi.edu/), USA.  
-My advisor is Prof. [Meng Wang](https://sites.ecse.rpi.edu/~wang/).
+I am a Ph.D. candidate at the [Department of Electrical, Computer, and Systems Engineering](https://ecse.rpi.edu/about) of [Rensselaer Polytechnic Institute](https://www.rpi.edu/), USA. My advisor is Prof. [Meng Wang](https://sites.ecse.rpi.edu/~wang/). Previously, I obtained my B.Sc. and M.Sc. degrees in Electrical and Electronic Engineering from the University of Dhaka, Bangladesh.
 
-Previously, I obtained my B.Sc. and M.Sc. degrees in Electrical and Electronic Engineering from the University of Dhaka, Bangladesh.
-
-My broad research interest lies in the theoretical and algorithmic aspects of deep learning.  
-My current research focuses on developing **data-, compute-, and memory-efficient** learning and inference methods for large AI models.
+My broad research interest lies in the theoretical and algorithmic aspects of deep learning. My current research focuses on developing **data-, compute-, and memory-efficient** learning and inference methods for large AI models.
 
 ---
 
