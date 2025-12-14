@@ -9,22 +9,3 @@ search_enabled: False
 
 # Optional sidebar logo
 logo: "/assets/profile.jpg"
-
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /publications/:name/
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-# Navigation for collections
-just_the_docs:
-  collections:
-    projects:
-      name: "Research Projects"
-      nav_order: 3
-    publications:
-      name: "Publications"
-      nav_order: 4
