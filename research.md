@@ -15,7 +15,7 @@ One of the key techniques for efficient training of large AI models is the spars
 Scaling model size is computationally expensive. Naively increasing the model size proportionally increases the training compute requirements for dense models. MoE models are introduced to efficiently scale the model size with only a sublinear increase in training compute. Instead of processing every input by every parameter of the model, the architecture routes (via a *router*) different inputs to different groups of parameters (each parameter group is referred to as an *expert*) for processing. Modern MoE models employ *patch/token-level routing*, where instead of routing the whole input sequence (e.g., an image for vision tasks, or a sequence of tokens in NLP tasks) to an expert, different patches/tokens of the sequence are routed to different experts. The patch/token-level routing demonstrates significant empirical success (e.g., 20% reduction of training FLOPs compared to dense models). Despite the empirical success, theoretically, the architecture remains mysterious due to its superior performance despite incorporating sparse computation. In this project, we address the following questions theoretically:
 
 <p align="center">
-<b><i>Why does the MoE model save training compute? How much computational resource does MoE save?
+<b><i>Why does the MoE model save training compute? How much computational resource does MoE save?<b><i>
 </p>
 
 Our contributions:
