@@ -18,3 +18,6 @@ Scaling model size is computationally expensive. Naively increasing the model si
 <b><i>Why does the MoE model save training compute? How much computational resource does MoE save?
 </p>
 
+Our contributions:
+
+1. This project provides the first theoretical generalization analysis of patch-level MoE (pMoE). Our analysis on pMoE with two-layer CNNs as experts reveals that the architecture can achieve the same generalization performance as conventional CNN while reducing the sample complexity (the required number of training samples to learn a proper model) and model complexity. Specifically, we prove that as long as $l$ is larger than a certain threshold, pMoE reduces the sample complexity and model complexity by a factor polynomial in $n/l$, indicating an improved generalization with a smaller $l$.
