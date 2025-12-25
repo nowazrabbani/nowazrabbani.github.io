@@ -5,15 +5,6 @@ nav_order: 2
 permalink: /research/
 ---
 
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@4/es5/tex-mml-chtml.js">
-</script>
-<script>
-  window.MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-  };
-</script>
-
 # Research
 The recent breakthroughs in artificial intelligence (AI) have been achieved through training large neural network (NN) models on enormous amount of data, which eventually requires a significant amount of training compute. Moreover, serving these large models also requires an enormous amount of memory and compute during inference. Therefore, for the sustainable growth of the capabilities of the current and future AI models, efficient training and inference methods need to be explored. From this perspective, my current research focuses on developing efficient training and inference methods for state-of-the-art AI models in a theoretically principled way. In other words, we want to develop **efficient training and inference methods for large AI models with theoretical performance guarantees**.
 
