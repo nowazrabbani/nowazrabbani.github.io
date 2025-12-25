@@ -20,6 +20,6 @@ Scaling model size is computationally expensive. Naively increasing the model si
 
 Our contributions:
 
-1. We provide the first theoretical generalization analysis of MoE with patch/token-level routing. Our analysis shows that the architecture can achieve the same generalization performance as its dense counterpart while reducing the computational complexity by a polynomial order of $n/l$. Here, $n$ is the sequence length and $l$ is the number of patches/tokens processed by each expert.
+1. We provide the first theoretical generalization analysis of MoE with patch/token-level routing. Our analysis shows that the architecture can achieve the same generalization performance as its dense counterpart while reducing the computational complexity by a polynomial order of $$n/l$$. Here, $$n$$ is the sequence length and $$l$$ is the number of patches/tokens processed by each expert.
 2. We theoretically prove that the router of an MoE layer learns to dispatch similar patches/tokens to the same expert. This allows the experts to learn with lower complexity compared to dense models, as the interference from dissimilar patches/tokens is greatly reduced. We also prove that the complexity of learning the router to achieve this discriminative property is insignificant compared to learning the experts or dense models.
 3. We empirically demonstrate the sample-efficient mode of operation of patch/token-level MoE for the first time in the literature with CNN type architecture.  
