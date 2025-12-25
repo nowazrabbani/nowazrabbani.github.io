@@ -1,3 +1,12 @@
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@4/es5/tex-mml-chtml.js">
+</script>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+  };
+</script>
+
 ---
 layout: default
 title: "Research"
