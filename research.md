@@ -23,7 +23,7 @@ One of the key techniques for efficient training of large AI models is the spars
 
 ---
 
-### Provable Training Efficiency of the Sparse MoE Models
+## Provable Training Efficiency of the Sparse MoE Models
 
 Scaling model size is computationally expensive. Naively increasing the model size proportionally increases the training compute requirements for dense models. MoE models are introduced to efficiently scale the model size with only a sublinear increase in training compute. Instead of processing every input by every parameter of the model, the architecture routes (via *routers*) different inputs to different groups of parameters (each parameter group is referred to as an *expert*) for processing. Modern MoE models employ *patch/token-level routing*, where instead of routing the whole input sequence (e.g., an image for vision tasks, or a sequence of tokens in NLP tasks) to an expert, different patches/tokens of the sequence are routed to different experts. The patch/token-level routing demonstrates significant empirical success (e.g., 20% reduction of training FLOPs compared to dense models). Despite the empirical success, theoretically, the architecture remains mysterious due to its superior performance despite incorporating sparse computation. In this project, we address the following questions theoretically:
 
@@ -69,7 +69,7 @@ Our contributions:
 
 ---
 
-### Provably Effective Expert-Pruning for Efficient Inference of MoE Models
+## Provably Effective Expert-Pruning for Efficient Inference of MoE Models
 
 As MoE models are efficient to train, they possess incomparably large model sizes. Serving these models requires a huge amount of GPU memory. However, during pretraining, experts learn diverse features. Not all of the experts are useful for a downstream task. In this project, we theoretically investigate the model's learning dynamics during finetuning on a particular downstream task to identify the post-finetuning model property that can appropriately determine the relevant experts for the task.
 
