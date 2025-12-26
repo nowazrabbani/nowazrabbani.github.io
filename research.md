@@ -21,7 +21,9 @@ The recent breakthroughs in artificial intelligence (AI) have been achieved thro
 
 One of the key techniques for efficient training of large AI models is the sparse **Mixture-of-Experts** (MoE). Despite the empirical success of MoE, the theoretical understanding of the architecture is limited. Moreover, due to their excellent scalability, the MoE models are enormous in size and hence require huge memory and compute during inference. My recently completed research projects focus on understanding the training dynamics of the architecture under different learning scenarios, and using the analytical insights to design efficient inference methods for such models.
 
-**Provable Training Efficiency of the Sparse MoE Models**
+---
+
+### Provable Training Efficiency of the Sparse MoE Models
 
 Scaling model size is computationally expensive. Naively increasing the model size proportionally increases the training compute requirements for dense models. MoE models are introduced to efficiently scale the model size with only a sublinear increase in training compute. Instead of processing every input by every parameter of the model, the architecture routes (via *routers*) different inputs to different groups of parameters (each parameter group is referred to as an *expert*) for processing. Modern MoE models employ *patch/token-level routing*, where instead of routing the whole input sequence (e.g., an image for vision tasks, or a sequence of tokens in NLP tasks) to an expert, different patches/tokens of the sequence are routed to different experts. The patch/token-level routing demonstrates significant empirical success (e.g., 20% reduction of training FLOPs compared to dense models). Despite the empirical success, theoretically, the architecture remains mysterious due to its superior performance despite incorporating sparse computation. In this project, we address the following questions theoretically:
 
@@ -65,7 +67,9 @@ Our contributions:
 2. We theoretically prove that the routers of an MoE layer learn to dispatch similar patches/tokens to the same expert. This allows the experts to learn with lower complexity compared to dense models, as the interference from dissimilar patches/tokens is greatly reduced. We also prove that the complexity of learning the router to achieve this discriminative property is insignificant compared to learning the experts or dense models.
 3. We empirically demonstrate the sample-efficient mode of operation of patch/token-level MoE for the first time in the literature with CNN type architecture.
 
-**Provably Effective Expert-Pruning for Efficient Inference of MoE Models**
+---
+
+### Provably Effective Expert-Pruning for Efficient Inference of MoE Models
 
 As MoE models are efficient to train, they possess incomparably large model sizes. Serving these models requires a huge amount of GPU memory. However, during pretraining, experts learn diverse features. Not all of the experts are useful for a downstream task. In this project, we theoretically investigate the model's learning dynamics during finetuning on a particular downstream task to identify the post-finetuning model property that can appropriately determine the relevant experts for the task.
 
@@ -77,7 +81,10 @@ Our contributions:
 2. We empirically demonstrate the effectiveness of the proposed pruning method on state-of-the-art large MoE models for various benchmark tasks.
 
 {% comment %}
-**Efficient Quantization of MoE Models with Theoretical Generalization Guarantees**
+
+---
+
+### Efficient Quantization of MoE Models with Theoretical Generalization Guarantees
 
 Post-training weight quantization has been explored to address the memory requirement of large MoE models. However, a uniform bit-width for all experts significantly degrades performance for ultra-low-bit (e.g., under 3-bit). On the other hand, the diversity of the experts suggests greater potential for expert-wise mixed-precision (i.e., varying bit-width across experts) in the ultra-low-bit scenario. Recent works explored in this direction. However, their approaches are calibration data-dependent heuristics, require substantial computation for bit-width allocation, and overlook the varying sensitivity of model performance (e.g., model accuracy) to the quantization of different experts.
 
@@ -88,4 +95,7 @@ Our contributions:
 1. Our proposed expert-wise mixed precision strategy is theoretically-grounded, providing insights about why and how we can vary bit-width across experts.
 2. Our empirical results demonstrate superior performance over other expert-wise and non-expert-wise mixed-precision baselines.
 3. Our method reduces the inference computation compared to prior methods, and incurs negligible computational overhead to determine expert bit-widths, while the alternative methods require significant GPU computation.
+
+---
+
 {% endcomment %}
