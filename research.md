@@ -75,6 +75,18 @@ As MoE models are efficient to train, they possess incomparably large model size
 
 Our investigation reveals that the experts learning relevant features for the downstream task undergo a larger change in their router norm compared to irrelevant experts during finetuning. Therefore, pruning the experts with a lower change in router norm during finetuning can provably maintain model performance while reducing the model size significantly.
 
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/expert_pruning_diagram.png"
+       alt="Training efficiency of sparse MoE"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/expert_pruning_acc.png"
+       alt="Training efficiency of sparse MoE"
+       style="max-width:80%; height:auto;">
+</figure>
+
 Our contributions:
 
 1. We provide the first provably effective pruning metric for expert-pruning in finetuned MoE models. Our work not only provides the theoretical generalization guarantee for the pruned model, but also describes why and how the different experts become relevant/irrelevant to the task.
