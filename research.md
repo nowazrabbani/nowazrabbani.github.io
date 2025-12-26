@@ -67,6 +67,8 @@ Our contributions:
 2. We theoretically prove that the routers of an MoE layer learn to dispatch similar patches/tokens to the same expert. This allows the experts to learn with lower complexity compared to dense models, as the interference from dissimilar patches/tokens is greatly reduced. We also prove that the complexity of learning the router to achieve this discriminative property is insignificant compared to learning the experts or dense models.
 3. We empirically demonstrate the sample-efficient mode of operation of patch/token-level MoE for the first time in the literature with CNN type architecture.
 
+**Publication** **_Mohammed Nowaz Rabbani Chowdhury_**, _Shuai Zhang_, _Meng Wang_, _Sijia Liu_, _Pin-Yu Chen_. [Patch-level Routing in Mixture-of-Experts is Provably Sample-efficient for Convolutional Neural Networks](https://proceedings.mlr.press/v202/chowdhury23a/chowdhury23a.pdf). _ICML 2023 **Oral**_. [Slides](https://icml.cc/media/icml-2023/Slides/25551.pdf); [Video](https://slideslive.com/39006762/patchlevel-routing-in-mixtureofexperts-is-provably-sampleefficient-for-convolutional-neural-networks); [Code](https://github.com/nowazrabbani/pMoE_CNN)
+
 ---
 
 ## Provably Effective Expert-Pruning for Efficient Inference of MoE Models
@@ -91,6 +93,8 @@ Our contributions:
 
 1. We provide the first provably effective pruning metric for expert-pruning in finetuned MoE models. Our work not only provides the theoretical generalization guarantee for the pruned model, but also describes why and how the different experts become relevant/irrelevant to the task.
 2. We empirically demonstrate the effectiveness of the proposed pruning method on state-of-the-art large MoE models for various benchmark tasks.
+
+**Publication** **_Mohammed Nowaz Rabbani Chowdhury_**, _Meng Wang_, _Kaoutar El Maghraoui_, _Naigang Wang_, _Pin-Yu Chen_, _Christopher Carothers_. [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://proceedings.mlr.press/v235/chowdhury24a). _ICML 2024_.
 
 {% comment %}
 
