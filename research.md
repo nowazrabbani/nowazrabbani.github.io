@@ -29,12 +29,6 @@ Scaling model size is computationally expensive. Naively increasing the model si
 <b><i>Why does the MoE model save training compute? How much computational resource does MoE save?</i></b>
 </p>
 
-Our contributions:
-
-1. We provide the first theoretical generalization analysis of MoE with patch/token-level routing. Our analysis shows that the architecture can achieve the same generalization performance as its dense counterpart while reducing the computational complexity by a polynomial order of $$n/l$$. Here, $$n$$ is the sequence length and $$l$$ is the number of patches/tokens processed by each expert.
-2. We theoretically prove that the routers of an MoE layer learn to dispatch similar patches/tokens to the same expert. This allows the experts to learn with lower complexity compared to dense models, as the interference from dissimilar patches/tokens is greatly reduced. We also prove that the complexity of learning the router to achieve this discriminative property is insignificant compared to learning the experts or dense models.
-3. We empirically demonstrate the sample-efficient mode of operation of patch/token-level MoE for the first time in the literature with CNN type architecture.
-  
 <div style="display:flex; gap:20px; justify-content:center; margin:2em 0;">
   <figure style="width:30%; text-align:center;">
     <img src="/assets/pMoE_c_1.png" style="max-width:100%;">
@@ -48,6 +42,28 @@ Our contributions:
     <img src="/assets/o_2.png" style="max-width:100%;">
   </figure>
 </div>
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/complexity_pmoe.png"
+       alt="Training efficiency of sparse MoE"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<div style="display:flex; gap:20px; justify-content:center; margin:2em 0;">
+  <figure style="width:30%; text-align:center;">
+    <img src="/assets/celeba_multiclass_plot_2.png" style="max-width:100%;">
+  </figure>
+
+  <figure style="width:30%; text-align:center;">
+    <img src="/assets/celeba_multiclass_training_flops_plot_2.png" style="max-width:100%;">
+  </figure>
+</div>
+
+Our contributions:
+
+1. We provide the first theoretical generalization analysis of MoE with patch/token-level routing. Our analysis shows that the architecture can achieve the same generalization performance as its dense counterpart while reducing the computational complexity by a polynomial order of $$n/l$$. Here, $$n$$ is the sequence length and $$l$$ is the number of patches/tokens processed by each expert.
+2. We theoretically prove that the routers of an MoE layer learn to dispatch similar patches/tokens to the same expert. This allows the experts to learn with lower complexity compared to dense models, as the interference from dissimilar patches/tokens is greatly reduced. We also prove that the complexity of learning the router to achieve this discriminative property is insignificant compared to learning the experts or dense models.
+3. We empirically demonstrate the sample-efficient mode of operation of patch/token-level MoE for the first time in the literature with CNN type architecture.
 
 **Provably Effective Expert-Pruning for Efficient Inference of MoE Models**
 
