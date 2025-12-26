@@ -45,7 +45,8 @@ Our contributions:
 
 1. We provide the first provably effective pruning metric for expert-pruning in finetuned MoE models. Our work not only provides the theoretical generalization guarantee for the pruned model, but also describes why and how the different experts become relevant/irrelevant to the task.
 2. We empirically demonstrate the effectiveness of the proposed pruning method on state-of-the-art large MoE models for various benchmark tasks.
-<!--
+
+{% comment %}
 **Efficient Quantization of MoE Models with Theoretical Generalization Guarantees**
 
 Post-training weight quantization has been explored to address the memory requirement of large MoE models. However, a uniform bit-width for all experts significantly degrades performance for ultra-low-bit (e.g., under 3-bit). On the other hand, the diversity of the experts suggests greater potential for expert-wise mixed-precision (i.e., varying bit-width across experts) in the ultra-low-bit scenario. Recent works explored in this direction. However, their approaches are calibration data-dependent heuristics, require substantial computation for bit-width allocation, and overlook the varying sensitivity of model performance (e.g., model accuracy) to the quantization of different experts.
@@ -57,4 +58,4 @@ Our contributions:
 1. Our proposed expert-wise mixed precision strategy is theoretically-grounded, providing insights about why and how we can vary bit-width across experts.
 2. Our empirical results demonstrate superior performance over other expert-wise and non-expert-wise mixed-precision baselines.
 3. Our method reduces the inference computation compared to prior methods, and incurs negligible computational overhead to determine expert bit-widths, while the alternative methods require significant GPU computation.
--->
+{% endcomment %}
