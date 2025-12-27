@@ -23,6 +23,10 @@ permalink: /
       Rensselaer Polytechnic Institute (RPI)
     </p>
 
+    <p style="margin-top:0; margin-bottom:0.8em;">
+      Email: chowdm2atrpidotedu; nowazrabbaniek45atgmaildotcom
+    </p>
+
     <!-- Icons row -->
     <div style="display:flex; flex-wrap:wrap; gap:14px; font-size:0.95em;">
 
