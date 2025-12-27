@@ -5,10 +5,6 @@ nav_order: 1
 permalink: /
 ---
 
-# Mohammed Nowaz Rabbani Chowdhury
-
-_Ph.D. Candidate, Electrical Engineering — Rensselaer Polytechnic Institute (RPI)_
-
 <div style="display:flex; align-items:center; gap:24px; margin-top:1em;">
 
   <!-- Profile photo -->
