@@ -75,8 +75,10 @@ My broad research interest lies in the theoretical and algorithmic aspects of de
 ---
 
 ## News
-- **2025** — Received the *Belsky Award of Computational Science*, RPI  
-- **2024–2025** — Awarded the *IBM PhD Fellowship*  
-- **2024** — Founder’s Award of Excellence (Top 1% of RPI students)
+- **February, 2025** - I received the 2024 [IBM PhD Fellowship](https://researchweb.draco.res.ibm.com/university/awards/fellowships-awardees.html).
+- **January, 2025** — I received the 2025 **Belsky Award** for Computational Sciences and Engineering at RPI 
+- **October, 2024** — I received the **Rensselaer's Founders Award of Excellence**
+- **May, 2024** — Our paper on the provably efficient expert-pruning for finetuned spare Mixture-of-Experts is accepted in ICML, 2024.  
+- **April, 2023** — Our paper on the sample-efficiency of Mixture-of-Experts is accepted in ICML, 2023; recieved **oral presentation**. 
 
 _Last updated: {{ site.time | date: "%B %Y" }}_
