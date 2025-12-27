@@ -4,11 +4,14 @@ title: "Home"
 nav_order: 1
 permalink: /
 ---
+<img src="{{ site.baseurl }}/assets/profile.jpg"
+     alt="Mohammed Nowaz Rabbani Chowdhury"
+     style="width:180px; border-radius:50%;">
 
 <div style="display:flex; gap:14px; align-items:center; font-size:0.95em;">
 
   <!-- Google Scholar -->
-  <a href="https://scholar.google.com/citations?user=YOUR_ID"
+  <a href="https://scholar.google.com/citations?user=-JaZmaYAAAAJ&hl=en"
      target="_blank" title="Google Scholar"
      style="display:flex; align-items:center; gap:4px;">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -30,7 +33,7 @@ permalink: /
   </a>
 
   <!-- Email 2 -->
-  <a href="mailto:nowazrabbani@gmail.com"
+  <a href="mailto:nowazrabbaniek45@gmail.com"
      title="Email (Personal)"
      style="display:flex; align-items:center; gap:4px;">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -40,7 +43,7 @@ permalink: /
   </a>
 
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"
+  <a href="https://www.linkedin.com/in/mohammed-nowaz-rabbani-chowdhury-b24446251/"
      target="_blank" title="LinkedIn"
      style="display:flex; align-items:center; gap:4px;">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -54,7 +57,7 @@ permalink: /
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
       <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
     </svg>
-    Troy, NY
+    Troy, NY, 12180, USA
   </span>
 
 </div>
