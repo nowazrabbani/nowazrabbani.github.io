@@ -24,7 +24,7 @@ permalink: /
     </p>
 
     <p style="margin-top:0; margin-bottom:0.8em;">
-      Email: chowdm2atrpidotedu; nowazrabbaniek45atgmaildotcom
+      Email: chowdm2@rpi.edu; nowazrabbaniek45@gmail.com
     </p>
 
     <!-- Icons row -->
@@ -40,26 +40,6 @@ permalink: /
           <path d="M5 13v4.47c0 1.14 3.13 2.53 7 2.53s7-1.39 7-2.53V13l-7 3.18L5 13z"/>
         </svg>
         Scholar
-      </a>
-
-      <!-- Email (RPI) -->
-      <a href="mailto:chowdm2@rpi.edu"
-         title="Email (RPI)"
-         style="display:flex; align-items:center; gap:4px;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-        RPI
-      </a>
-
-      <!-- Email (Personal) -->
-      <a href="mailto:nowazrabbaniek45@gmail.com"
-         title="Email (Personal)"
-         style="display:flex; align-items:center; gap:4px;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-        Personal
       </a>
 
       <!-- LinkedIn -->
