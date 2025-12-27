@@ -76,6 +76,7 @@ My broad research interest lies in the theoretical and algorithmic aspects of de
 
 ## News
 - **October, 2025** - I passed the doctoral candidacy exam.
+- **March, 2025** - I will join IBM Research as a visiting research scholar for this summer.
 - **February, 2025** - I received the 2024 [IBM PhD Fellowship](https://researchweb.draco.res.ibm.com/university/awards/fellowships-awardees.html).
 - **January, 2025** — I received the 2025 **Belsky Award** for Computational Sciences and Engineering at RPI 
 - **October, 2024** — I received the **Rensselaer's Founders Award of Excellence**
