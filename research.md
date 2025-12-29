@@ -84,6 +84,18 @@ Our investigation reveals that the experts learning relevant features for the do
 </figure>
 
 <figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/pruning_th_r1.png"
+       alt="Training efficiency of sparse MoE"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/pruning_th_r2.png"
+       alt="Training efficiency of sparse MoE"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/expert_pruning_acc.png"
        alt="Training efficiency of sparse MoE"
        style="max-width:80%; height:auto;">
