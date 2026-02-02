@@ -119,7 +119,7 @@ In this project, through the lens of feature learning dynamics of MoE, we theore
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/diagram_2.png"
        alt="MoE Quantization"
-       style="max-width:80%; height:auto;">
+       style="max-width:60%; height:auto;">
 </figure>
 
 <figure style="text-align:center; margin: 2em 0;">
@@ -151,4 +151,5 @@ Our contributions:
 2. Our empirical results demonstrate superior performance over other expert-wise and non-expert-wise mixed-precision baselines.
 3. Our method reduces the inference computation compared to prior methods, and incurs negligible computational overhead to determine expert bit-widths, while the alternative methods require significant GPU computation.
 
----
+**Publication:** **_Mohammed Nowaz Rabbani Chowdhury_**, _Kaoutar El Maghraoui_,_Hsinyu Tsai_, _Naigang Wang_,  _Geoffrey W. Burr_, _Liu Liu_, _Meng Wang_. Efficient Quantiza-
+tion of Mixture-of-Experts with Theoretical Generalization Guarantees. _ICLR 2026_.
