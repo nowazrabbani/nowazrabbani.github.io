@@ -79,25 +79,25 @@ Our investigation reveals that the experts learning relevant features for the do
 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/expert_pruning_diagram.png"
-       alt="Training efficiency of sparse MoE"
+       alt="MoE Pruning"
        style="max-width:80%; height:auto;">
 </figure>
 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/pruning_th_r1.png"
-       alt="Training efficiency of sparse MoE"
+       alt="Pruning Theorem 1"
        style="max-width:80%; height:auto;">
 </figure>
 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/pruning_th_r2.png"
-       alt="Training efficiency of sparse MoE"
+       alt="Pruning Theorem 2"
        style="max-width:80%; height:auto;">
 </figure>
 
 <figure style="text-align:center; margin: 2em 0;">
   <img src="/assets/expert_pruning_acc.png"
-       alt="Training efficiency of sparse MoE"
+       alt="Pruning Results"
        style="max-width:80%; height:auto;">
 </figure>
 
@@ -108,8 +108,6 @@ Our contributions:
 
 **Publication:** **_Mohammed Nowaz Rabbani Chowdhury_**, _Meng Wang_, _Kaoutar El Maghraoui_, _Naigang Wang_, _Pin-Yu Chen_, _Christopher Carothers_. [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://proceedings.mlr.press/v235/chowdhury24a). _ICML 2024_.
 
-{% comment %}
-
 ---
 
 ### Efficient Quantization of MoE Models with Theoretical Generalization Guarantees
@@ -118,6 +116,35 @@ Post-training weight quantization has been explored to address the memory requir
 
 In this project, through the lens of feature learning dynamics of MoE, we theoretically investigate why and how we can vary bit-width across experts. Our theoretical analysis reveals that, among the experts with maximum intra-neuron weight variance within an acceptable range, the experts with lower router norm change during training exhibit weaker activation (as they learn less frequent but critical features), and hence, model performance is more sensitive to the quantization of these experts. Furthermore, the experts which maximum intra-neuron weight variance that is unusually large, inject significant quantization noise into the model. Based on these theoretical insights, we design a two-step expert ranking strategy for allocating experts in higher ranks to higher bit-width. Specifically, we primarily place the experts with lower router norm changes to higher ranks, and then re-order some lower-rank experts to higher ranks if their maximum intra-neuron weight variance is significantly larger.
 
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/diagram_2.png"
+       alt="MoE Quantization"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/th3.png"
+       alt="MoE Quantization Theorem 1"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<figure style="text-align:center; margin: 2em 0;">
+  <img src="/assets/th4.png"
+       alt="MoE Quantization Theorem 2"
+       style="max-width:80%; height:auto;">
+</figure>
+
+<div style="display:flex; gap:20px; justify-content:center; margin:2em 0;">
+  <figure style="width:30%; text-align:center;">
+    <img src="/assets/switch2.png" style="max-width:100%;">
+  </figure>
+
+  <figure style="width:30%; text-align:center;">
+    <img src="/assets/inference_time2.png" style="max-width:100%;">
+  </figure>
+</div>
+
+
 Our contributions:
 
 1. Our proposed expert-wise mixed precision strategy is theoretically-grounded, providing insights about why and how we can vary bit-width across experts.
@@ -125,5 +152,3 @@ Our contributions:
 3. Our method reduces the inference computation compared to prior methods, and incurs negligible computational overhead to determine expert bit-widths, while the alternative methods require significant GPU computation.
 
 ---
-
-{% endcomment %}
