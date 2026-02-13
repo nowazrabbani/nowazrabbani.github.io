@@ -106,7 +106,7 @@ Our contributions:
 1. We provide the first provably effective pruning metric for expert-pruning in finetuned MoE models. Our work not only provides the theoretical generalization guarantee for the pruned model, but also describes why and how the different experts become relevant/irrelevant to the task.
 2. We empirically demonstrate the effectiveness of the proposed pruning method on state-of-the-art large MoE models for various benchmark tasks.
 
-**Publication:** **_Mohammed Nowaz Rabbani Chowdhury_**, _Meng Wang_, _Kaoutar El Maghraoui_, _Naigang Wang_, _Pin-Yu Chen_, _Christopher Carothers_. [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://proceedings.mlr.press/v235/chowdhury24a). _ICML 2024_.
+**Publication:** **_Mohammed Nowaz Rabbani Chowdhury_**, _Meng Wang_, _Kaoutar El Maghraoui_, _Naigang Wang_, _Pin-Yu Chen_, _Christopher Carothers_. [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://proceedings.mlr.press/v235/chowdhury24a). _ICML 2024_. [Code](https://github.com/nowazrabbani/MoE_Pruning)
 
 ---
 
