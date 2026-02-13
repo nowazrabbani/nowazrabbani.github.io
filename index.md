@@ -53,7 +53,7 @@ permalink: /
       </a>
 
       <!-- GitHub -->
-      <a href="https://github.com/nowazrabbani"
+      <a href="https://github.com/nowazrabbani/"
          target="_blank" title="GitHub"
          style="display:flex; align-items:center; gap:4px;">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
