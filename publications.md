@@ -7,7 +7,7 @@ permalink: /publications/
 
 # Publications
 
-- **_Mohammed Nowaz Rabbani Chowdhury_**, _Kaoutar El Maghraoui_, _Hsinyu Tsai_, _Naigang Wang_, _Geoffrey W. Burr_, _Liu Liu_, _Meng Wang_. Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees. _ICLR 2026_.
+- **_Mohammed Nowaz Rabbani Chowdhury_**, _Kaoutar El Maghraoui_, _Hsinyu Tsai_, _Naigang Wang_, _Geoffrey W. Burr_, _Liu Liu_, _Meng Wang_. [Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees](https://openreview.net/forum?id=yiMlVBAoQi). _ICLR 2026_. [Code](https://github.com/nowazrabbani/moe_quantization)
 
 - **_Mohammed Nowaz Rabbani Chowdhury_**, _Meng Wang_, _Kaoutar El Maghraoui_, _Naigang Wang_, _Pin-Yu Chen_, _Christopher Carothers_. [A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts](https://proceedings.mlr.press/v235/chowdhury24a). _ICML 2024_. [Code](https://github.com/nowazrabbani/MoE_Pruning)
 
